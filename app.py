@@ -7,7 +7,7 @@ import pandas as pd
 #print(emoji.emojize(":victory_hand:"))
 #print(emoji.emojize(":raised_hand:"))
 
-st.markdown("# Rock Paper Sciscors bot 🤖")
+st.markdown("# Rock Paper Scissors bot 🤖")
 
 if "game_history" not in st.session_state:
     st.session_state.game_history = {"You": 0, "RPSbot": 0, "Tie": 0}
