@@ -42,7 +42,7 @@ elif play == 'STATS':
     if games_played == 0:
         resp = "You haven't played any games yet. [R]ock, [P]aper :raised_hand:, [S]cissors?"
     else:
-        resp = f"Your win rate is {round(100* st.session_state.game_history["You"] / games_played,1)}%"
+        resp = f"Your win rate is {round(100* st.session_state.game_history['You'] / games_played,1)}%"
 else:
     resp = "[R]ock✊, [P]aper✋, [S]cissors✌?"
 
